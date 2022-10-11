@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: black;
+}
+header {
+  margin: 0;
+}
+h2 {
+  color: cornsilk;
+  padding-top: 2rem;
+  text-align: center;
+}
+h3 {
+  color: cornsilk;
+}
+i {
+  color: cornsilk;
+}
+
+img {
+  width: 33%;
+  background-position: center;
+  background-size: contain;
+  height: 17em;
+}
+.f-size {
+  font-size: 14px;
+}
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.py-3 {
+  padding: 2rem;
+}
+.width-30 {
+  width: 33%;
+}
+.gap-3 {
+  gap: 3rem;
+}
+.v-align {
+  vertical-align: middle;
+}
+
+.bg-dark {
+  background-color: black;
+}
+.bg-gray {
+  background-color: rgba(80, 78, 78, 0.656);
+}
+.white-text {
+  color: whitesmoke;
+}
+.text-center {
+  text-align: center;
+}
+.hero-bg-iguana {
+  background-image: url("../Assets/img/bg-header.jpg");
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.inline-block {
+  display: inline-block;
+}
+.width-45 {
+  width: 45%;
+}
